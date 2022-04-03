@@ -1,0 +1,32 @@
+ .carousel-item img {
+      object-fit: cover;
+      /* max-height: 500px; */
+  }
+
+ .breadcrumb {
+      /* color: white; */
+      /* background-color:grey; */
+      
+      margin: 1em 0 1em 0;
+      padding-left: 1em;
+  }px
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: white;
+}
+
+#image-1 {
+    width: 34rem;
+    height: 25em;
+    object-fit: cover;
+}
+
+#navbarDropdown::after {        /* Remove the arrow after button */
+    content: none;
+
+/* .card img {
+    width: 34rem;
+    height: 25em;
+    object-fit: cover;
+} */
