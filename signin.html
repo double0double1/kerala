@@ -71,9 +71,11 @@
                   <button class="btn btn-outline-light me-3" type="submit">Search</button>
                 </form>
 
-                <button type="button" class="btn btn-primary me-4" ">Sign In</button>
-                
-                <!-- <button type="button" class="btn btn-primary me-2"">Sign Up</button> -->
+                <div class="btn-group me-1">
+                    <a href="signin.html" class="btn btn-info me-1">Sign In</a>
+                    <a href="#" class="btn btn-info">Sign Up</a>
+                </div>
+
               </div>
             </div>
             
@@ -82,7 +84,7 @@
             <ol class="breadcrumb py-0 position-relative" >
                 <span>You are here:&nbsp;</span>
               <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">Districts</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="#">Accounts</a></li>
               <div class="position-absolute top-0 end-0 me-4" id="date-div"></div>
             </ol>
             
@@ -93,19 +95,20 @@
 
 <!-- Sign In -->
 
-        <section class="vh-100">
+        <section class="vh-100 mb-4">
             <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 text-black">
-        
-                <div class="px-5 ms-xl-4">
-                    <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
-                    <span class="h1 fw-bold mb-0">Logo</span>
+            <div class="row ">
+
+                <div class="col-sm-6 px-4  d-none d-lg-block ">
+                    <img src="images/manyu-varma-ef3A5EDR7Jk-unsplash.jpg"
+                        alt="Login image" class=" border rounded w-100 vh-100" style="object-fit: cover; object-position: left;">
                 </div>
+
+                <div class="col-sm-6 text-black align-self-center">
         
-                <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+                <div class="d-flex  align-items-stretch ">
         
-                    <form style="width: 23rem;">
+                    <form class="m-auto" style="width: 23rem;">
         
                     <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
         
@@ -120,7 +123,7 @@
                     </div>
         
                     <div class="pt-1 mb-4">
-                        <button class="btn btn-info btn-lg btn-block" type="button">Login</button>
+                        <button class="btn btn-info btn-block" type="button">Login</button>
                     </div>
         
                     <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
@@ -131,16 +134,12 @@
                 </div>
         
                 </div>
-                <div class="col-sm-6 px-0 d-none d-sm-block">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
-                    alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
-                </div>
+                
+                
             </div>
             </div>
+            
         </section>
-
-
-
 
 
 
