@@ -24,3 +24,7 @@
 #navbarDropdown::after {        /* Remove the arrow after button */
     content: none;
 }
+
+#dist {
+    background-image: url("../images/manyu-varma-ef3A5EDR7Jk-unsplash.jpg");
+}
