@@ -11,9 +11,8 @@
       padding-left: 1em;
   }px
 
-.breadcrumb li a {
+.no-dec {
     text-decoration: none;
-    color: white;
 }
 
 #image-1 {
@@ -24,9 +23,4 @@
 
 #navbarDropdown::after {        /* Remove the arrow after button */
     content: none;
-
-/* .card img {
-    width: 34rem;
-    height: 25em;
-    object-fit: cover;
-} */
+}
