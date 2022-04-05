@@ -16,8 +16,9 @@
     </head>
 
     <body>
+
 <!-- Nav Bar -->
-        
+      <header>
         <nav class="navbar navbar-expand-md navbar-light bg-dark  bg-gradient sticky-top border rounded>
             <div class="container-fluid">
               <a class="navbar-brand border rounded bg-light ms-3" href="#">
@@ -30,7 +31,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2" >
                   <li class="nav-item ">
                     <a class="nav-link" href="#">
-                      <button type="button" class="btn btn-light">Activities</button>
+                      <button type="button" class="btn btn-light disabled" >Activities</button>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -40,7 +41,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <button type="button" class="btn btn-light">Gallery</button>
+                      <button type="button" class="btn btn-light disabled">Gallery</button>
                     </a>
                   </li>
                   <!-- <li class="nav-item">
@@ -50,7 +51,7 @@
                   </li> -->
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <button type="button" class="btn btn-light dropdown-toggle">More</button>
+                      <button type="button" class="btn btn-light dropdown-toggle disabled">More</button>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Culture</a></li>
@@ -73,7 +74,7 @@
                 
                 <div class="btn-group m-1">
                     <a href="signin.html" class="btn btn-info me-1">Sign In</a>
-                    <a href="#" class="btn btn-info">Sign Up</a>
+                    <a href="signup.html" class="btn btn-info">Sign Up</a>
                 </div>
                 
                 
@@ -82,16 +83,21 @@
             </div>
             
           </nav>
-          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" >
+
+          <nav class="border border-black  bg-primary bg-opacity-25" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" >
             <ol class="breadcrumb py-0 position-relative" >
                 <span>You are here:&nbsp;</span>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">Home</a></li>
-              <div class="position-absolute top-0 end-0 me-4" id="date-div"></div>
-            </ol>
-            
-            
+              <li class="breadcrumb-item active" aria-current="page"><a style="text-decoration: none; color: black;" href="#">Home</a></li>
+              <div class="position-absolute top-0 end-0 me-2" id="date-div"></div>
+            </ol>      
+
           </nav>
+      
+      </header>
+
 <!--/Nav Bar  -->
+
+<!-- ----------------------------------------------------------------------------------------------- -->
   
 <div class="container-fluid gx-2">
   <div class="row gx-2">
@@ -193,7 +199,7 @@
     <img src="images/pic33.jpg" class="card-img-top" alt="...">
     <div class="card-body text-center">
       <h5 class="card-title">Thrissur</h5>
-      <p class="card-text">Known by its historical name Thrissivaperur, Thrissur was a point of contact for the Assyrians, Greeks, Persians, Arabs, Romans, Portuguese, Dutch and English. Thrissur is also known as the Cultural Capital of Kerala because of its cultural, spiritual and religious leanings throughout history and hosts the Thrissur Pooram festival, the most colourful and spectacular temple festival in Kerala.</p>
+      <p class="card-text">Known by its historical name Thrissivaperur, Thrissur was a point of contact for the Assyrians, Greeks, Persians, Arabs, Romans, Portuguese, Dutch and English. Thrissur is also known as the Cultural Capital of Kerala because of its cultural, spiritual and religious leanings throughout history.</p>
     </div>
     <p class="m-auto mb-4"><a href="#"><button type="button" class="btn btn-outline-primary">Read More</button></a></p>
   </div>
@@ -202,7 +208,7 @@
     <img src="images/pic34.jpg" class="card-img-top" alt="...">
     <div class="card-body text-center">
       <h5 class="card-title">Kozhikode</h5>
-      <p class="card-text">Also known as Calicut, Kozhikode is a city along the Malabar Coast. In antiquity and the medieval period, Kozhikode was dubbed the City of Spices for its role as the major trading point for Indian spices. The central Kozhikode Beach, overlooked by an old lighthouse, is a popular spot for watching the sunset.</p>
+      <p class="card-text">Also known as Calicut, Kozhikode is a city along the Malabar Coast. In history, Kozhikode is dubbed the City of Spices for its role as the major trading point for Indian spices. The central Kozhikode Beach, overlooked by an old lighthouse, is a popular spot for watching the sunset.</p>
     </div>
     <p class="m-auto mb-4"><a href="#"><button type="button" class="btn btn-outline-primary">Read More</button></a></p>
   </div>
@@ -244,7 +250,7 @@
 <br><br><br>
   <!-- But Why -->
 
-
+<!-- ------------------------------------------------------------------------------------------------ -->
 <!-- Footer  -->
 
   <footer class="bg-dark bg-gradient text-center text-white">
@@ -291,7 +297,7 @@
         <!--Grid row-->
         <div class="row">
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled mb-0">
@@ -312,7 +318,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled mb-0">
@@ -333,7 +339,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled mb-0">
@@ -353,26 +359,6 @@
         </div>
         <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-            <li>
-                <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-                <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-                <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-                <a href="#!" class="text-white">Link 4</a>
-            </li>
-            </ul>
-        </div>
-        <!--Grid column-->
         </div>
         <!--Grid row-->
     </section>
@@ -400,7 +386,7 @@
 
     function myDateFunction() {
         const now = new Date();
-        const nowStr = now.toLocaleString('en-US');
+        const nowStr = now.toLocaleTimeString('en-US');
         dateDiv.innerHTML = nowStr;
     }
 
