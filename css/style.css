@@ -35,3 +35,8 @@
     background-image: url("../images/pic345 .jpg");
 } */
 
+.maintxt {
+    background-image: url(../images/pic-dt-1.jpg);
+    background-size: cover;
+    height: 14rem;
+}
